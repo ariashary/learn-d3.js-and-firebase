@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="canvas">
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-firestore.js"></script>
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyAAj2Oq_AEesH1wOHyOBbPLbqEpTVy4Ut8",
+        authDomain: "udemy-d3-firebase-17409.firebaseapp.com",
+        databaseURL: "https://udemy-d3-firebase-17409.firebaseio.com",
+        projectId: "udemy-d3-firebase-17409",
+        storageBucket: "udemy-d3-firebase-17409.appspot.com",
+        messagingSenderId: "674114470171",
+        appId: "1:674114470171:web:189e4d40fa3fd60d1b93be",
+        measurementId: "G-SP630D053R"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.firestore();
+    </script>
+    <script src="https://d3js.org/d3.v5.js"></script>
+    <script src="index.js"></script>
+    
+</body>
+</html>
